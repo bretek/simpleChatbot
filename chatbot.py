@@ -73,7 +73,7 @@ class MainWindow(QMainWindow):
         self.chat_input_enter.setIcon(QIcon.fromTheme("edit-undo"))
 
         self.bot_image = QLabel(self)
-        self.bot_image.setPixmap(QPixmap("assets/happy_bot.png"))
+        self.bot_image.setPixmap(QPixmap("happy_bot.png"))
         self.bot_image.show()
 
         self.chat_input_layout = QHBoxLayout()
